@@ -3,7 +3,7 @@ import './Card.css';
 
 export default class Card extends React.Component {
   render() {
-    let className = ['Card'];
+    let className = ['Client Card'];
     if (this.props.status === 'backlog') {
       className.push('Card-grey');
     } else if (this.props.status === 'in-progress') {
